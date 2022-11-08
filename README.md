@@ -1,4 +1,4 @@
-   Deployment: Sunday, November 13, 2023
+   Expected Deployment: Sunday, November 13, 2023
    
    
 # MySevev ("My Rotation")
