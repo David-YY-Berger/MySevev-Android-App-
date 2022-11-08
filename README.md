@@ -1,3 +1,6 @@
+   Deployment: Sunday, November 13, 2023
+   
+   
 # MySevev ("My Rotation")
 ### An Android app (developed for fun) that helps keep track of a weekly rotation.
    
