@@ -3,15 +3,7 @@
    
 # MySevev ("My Rotation")
 ### An Android app (developed for fun) that helps keep track of a weekly rotation.
-   ![app icon - store listing](https://user-images.githubusercontent.com/91850832/200668925-ae2c74a1-c7cc-46f6-8d48-b8751102781c.png)
-![Screenshot_20221108-212241](https://user-images.githubusercontent.com/91850832/200669393-f18b4e04-93f9-407e-911b-82dd10915617.png)
-![Screenshot_20221108-211902](https://user-images.githubusercontent.com/91850832/200669409-5c846930-9a0e-4464-af47-63a21adfc620.png)
-![Screenshot_20221108-212629](https://user-images.githubusercontent.com/91850832/200669432-afd8f091-306d-437f-8570-2c0d70c0f3ed.png)
-![Screenshot_20221108-212330](https://user-images.githubusercontent.com/91850832/200669448-13c206d5-985c-484a-b622-e75eb18e9d11.png)
-![Screenshot_20221108-212404](https://user-images.githubusercontent.com/91850832/200669471-2073dba0-1e19-421e-bc2d-e31e878de06a.png)
-![Screenshot_20221108-221353](https://user-images.githubusercontent.com/91850832/200669484-54076f9c-0609-4dc6-9754-3e275879bb73.png)
-
-   
+  
       
        
 MySevev (=“My Rotation” in Hebrew) helps you keep track of a weekly rotation (hosting an event, giving a lecture, etc), and writes a personalized message to whoever is leading that week.
@@ -35,4 +27,12 @@ This App was developed by someone who has organized too many communal events and
    
 Would love to hear any feedback! This is a work in progress...
 
-   
+ here are some pics:
+      ![app icon - store listing](https://user-images.githubusercontent.com/91850832/200668925-ae2c74a1-c7cc-46f6-8d48-b8751102781c.png)
+![Screenshot_20221108-212241](https://user-images.githubusercontent.com/91850832/200669393-f18b4e04-93f9-407e-911b-82dd10915617.png)
+![Screenshot_20221108-211902](https://user-images.githubusercontent.com/91850832/200669409-5c846930-9a0e-4464-af47-63a21adfc620.png)
+![Screenshot_20221108-212629](https://user-images.githubusercontent.com/91850832/200669432-afd8f091-306d-437f-8570-2c0d70c0f3ed.png)
+![Screenshot_20221108-212330](https://user-images.githubusercontent.com/91850832/200669448-13c206d5-985c-484a-b622-e75eb18e9d11.png)
+![Screenshot_20221108-212404](https://user-images.githubusercontent.com/91850832/200669471-2073dba0-1e19-421e-bc2d-e31e878de06a.png)
+![Screenshot_20221108-221353](https://user-images.githubusercontent.com/91850832/200669484-54076f9c-0609-4dc6-9754-3e275879bb73.png)
+
