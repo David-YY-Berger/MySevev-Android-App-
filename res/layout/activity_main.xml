@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my_sevev_pkg1.example.mysevev.Activities.MainActivity">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/bsd_Label"-->
+    <!--        android:layout_width="350dp"-->
+    <!--        android:layout_height="20dp"-->
+    <!--        android:text="בס&quot;ד"-->
+    <!--        android:textSize="10dp"-->
+    <!--        tools:layout_editor_absoluteX="31dp"-->
+    <!--        tools:layout_editor_absoluteY="34dp" />-->
+
+
+    <TextView
+        android:id="@+id/Occasion_List_Label"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:text="Occasions (Shabats):"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/occLstTop"
+        app:layout_constraintEnd_toEndOf="@id/right"
+        app:layout_constraintStart_toStartOf="@id/left"
+        app:layout_constraintTop_toTopOf="@id/occLabelTop" />
+
+    <ListView
+        android:id="@+id/OccasionListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:background="@color/white"
+        android:divider="@color/black"
+        android:dividerHeight="2dp"
+        app:layout_constraintBottom_toBottomOf="@id/occLstBottom"
+        app:layout_constraintEnd_toEndOf="@id/right"
+        app:layout_constraintStart_toStartOf="@id/left"
+        app:layout_constraintTop_toTopOf="@id/occLstTop" />
+
+    <Button
+        android:id="@+id/butAssign"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Assign\n (Shabat + Person)"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@id/peopLabelTop"
+        app:layout_constraintEnd_toStartOf="@id/butUnassign"
+        app:layout_constraintStart_toStartOf="@id/left"
+        app:layout_constraintTop_toTopOf="@id/occLstBottom" />
+
+    <Button
+        android:id="@+id/butUnassign"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+
+        android:text="Unassign\n (Shabat)"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/peopLabelTop"
+        app:layout_constraintEnd_toEndOf="@id/right"
+        app:layout_constraintStart_toEndOf="@id/butAssign"
+        app:layout_constraintTop_toTopOf="@id/occLstBottom" />
+
+
+    <TextView
+        android:id="@+id/Person_List_Label"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:text="People (Least-Recent First):"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/peopLstTop"
+        app:layout_constraintEnd_toEndOf="@id/right"
+        app:layout_constraintStart_toStartOf="@id/left"
+        app:layout_constraintTop_toTopOf="@id/peopLabelTop" />
+
+    <ListView
+        android:id="@+id/personListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:background="@color/white"
+        android:divider="@color/black"
+        android:dividerHeight="2dp"
+        android:listSelector="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="@id/peopLstBottom"
+        app:layout_constraintEnd_toEndOf="@id/right"
+        app:layout_constraintStart_toStartOf="@id/left"
+        app:layout_constraintTop_toTopOf="@id/peopLstTop" />
+
+
+    <Button
+        android:id="@+id/butAsk"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+
+        android:text="Ask\nPerson"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/peopButMid"
+        app:layout_constraintEnd_toStartOf="@id/butRemind"
+        app:layout_constraintStart_toStartOf="@id/left"
+        app:layout_constraintTop_toTopOf="@id/peopLstBottom" />
+
+    <Button
+        android:id="@+id/butRemind"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Remind\nPerson"
+
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/peopButMid"
+        app:layout_constraintEnd_toStartOf="@id/right"
+        app:layout_constraintStart_toEndOf="@id/butAsk"
+        app:layout_constraintTop_toTopOf="@id/peopLstBottom" />
+
+    <Button
+        android:id="@+id/butAddPerson"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Add Person"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/peopButBottom"
+        app:layout_constraintEnd_toStartOf="@id/butRemovePerson"
+        app:layout_constraintStart_toEndOf="@id/left"
+        app:layout_constraintTop_toTopOf="@id/peopButMid" />
+
+    <Button
+        android:id="@+id/butRemovePerson"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Remove\nPerson"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/peopButBottom"
+        app:layout_constraintEnd_toEndOf="@id/right"
+        app:layout_constraintStart_toEndOf="@id/butAddPerson"
+        app:layout_constraintTop_toTopOf="@id/peopButMid" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/occLabelTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/occLstTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/occLstBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/peopLabelTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/peopLstTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".60" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/peopLstBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".75" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/peopButMid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/peopButBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

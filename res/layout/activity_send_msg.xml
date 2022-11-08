@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my_sevev_pkg1.example.mysevev.Activities.SendMsgActivity">
+
+    <TextView
+        android:id="@+id/tvDisplayMessage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ellipsize="end"
+        android:maxLines="11"
+        android:text="Hi  + person.getName() + !\n+ Friendly reminder that you are signed up for  + occasion.getNameAndDate() + ./n"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@id/msgBottom"
+        app:layout_constraintDimensionRatio="1.1:1"
+        app:layout_constraintEnd_toEndOf="@id/msgRight"
+        app:layout_constraintStart_toStartOf="@id/msgLeft"
+        app:layout_constraintTop_toTopOf="@id/msgTop"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/butCopyClipboard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Copy to Clipboard!"
+        app:layout_constraintDimensionRatio="2:1"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@id/butShare"
+        app:layout_constraintStart_toStartOf="@id/butsLeft"
+        app:layout_constraintBottom_toBottomOf="@id/butsMid"
+        app:layout_constraintTop_toTopOf="@id/butsTop"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:id="@+id/butShare"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Share!"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="11sp"
+        app:layout_constraintDimensionRatio="2:1"
+        app:layout_constraintBottom_toBottomOf="@id/butsMid"
+        app:layout_constraintEnd_toEndOf="@id/butsRight"
+        app:layout_constraintStart_toEndOf="@id/butCopyClipboard"
+        app:layout_constraintTop_toTopOf="@id/butsTop"
+        android:layout_margin="3dp"/>
+
+    <Button
+        android:id="@+id/butReturn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Return"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="11sp"
+        app:layout_constraintDimensionRatio="2:1"
+        app:layout_constraintBottom_toBottomOf="@id/butsBottom"
+        app:layout_constraintEnd_toEndOf="@id/msgRight"
+        app:layout_constraintStart_toStartOf="@id/msgLeft"
+        app:layout_constraintTop_toBottomOf="@id/butsMid"
+        android:layout_margin="3dp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/msgLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/msgRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/msgTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/msgBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/butsTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/butsLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/butsRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/butsMid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/butsBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
