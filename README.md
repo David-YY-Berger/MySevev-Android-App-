@@ -15,7 +15,7 @@ FEATURES:
 - Automatically strikes-thru Shabats that have passed
 - Weekly Shabats are loaded (with dates) for entire year!
    
-HOW TO USE:
+HOW TO USE:   
 (1) Click “Add Person”. After adding people -   
 (2) Select a person, click “Ask”, and select which Shabats to ask for - and receive pre-written personalized message!    
 (3) Hit “Share!” to export directly.    
