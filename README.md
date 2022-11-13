@@ -1,6 +1,5 @@
-   Expected Deployment: Sunday, November 13, 2023
-   
-   
+Find on google play store: https://play.google.com/store/apps/details?id=my_sevev_pkg1.example.mysevev&hl=en&gl=US      
+     
 # MySevev ("My Rotation")
 ### An Android app (developed for fun) that helps keep track of a weekly rotation.
   
